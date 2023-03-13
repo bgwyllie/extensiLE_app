@@ -8,13 +8,6 @@
 import SwiftUI
 import Combine
 
-struct CustomColors {
-    static let logoBlue = Color("LogoBlue")
-    static let BlueText = Color("BlueText")
-    static let MenuColor = Color("MenuColor")
-    static let Grey = Color("Grey")
-}
-
 struct OutlinedTextFieldStyle: TextFieldStyle {
     
     @State var icon: Image?
@@ -56,7 +49,7 @@ struct LoginView: View {
 //                    .keyboardType(.emailAddress)
 //                    .textContentType(.emailAddress)
                     .frame(width: 230, height: 40, alignment: .center)
-                    .autocapitalization(.none)
+//                    .autocapitalization(.none)
 //                    .font(.custom("Inter", size: 20))
                     .padding()
                 

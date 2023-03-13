@@ -12,8 +12,6 @@
 		1124E8BB29AE53F90051B5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1124E8BA29AE53F90051B5D4 /* Assets.xcassets */; };
 		1124E8BE29AE53F90051B5D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1124E8BD29AE53F90051B5D4 /* Preview Assets.xcassets */; };
 		1124E8C829AE53F90051B5D4 /* extensiLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E8C729AE53F90051B5D4 /* extensiLETests.swift */; };
-		1124E8D229AE53F90051B5D4 /* extensiLEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E8D129AE53F90051B5D4 /* extensiLEUITests.swift */; };
-		1124E8D429AE53F90051B5D4 /* extensiLEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E8D329AE53F90051B5D4 /* extensiLEUITestsLaunchTests.swift */; };
 		1124E8E629AE54A10051B5D4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E8E529AE54A10051B5D4 /* LoginView.swift */; };
 		1124E8E729AE54A10051B5D4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E8E529AE54A10051B5D4 /* LoginView.swift */; };
 		1124E8E829AE54A10051B5D4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E8E529AE54A10051B5D4 /* LoginView.swift */; };
@@ -32,6 +30,15 @@
 		1124E8FA29AE554A0051B5D4 /* GameAnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E8F929AE554A0051B5D4 /* GameAnalysisViewModel.swift */; };
 		1124E8FB29AE554A0051B5D4 /* GameAnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E8F929AE554A0051B5D4 /* GameAnalysisViewModel.swift */; };
 		1124E8FC29AE554A0051B5D4 /* GameAnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1124E8F929AE554A0051B5D4 /* GameAnalysisViewModel.swift */; };
+		112D75E529B81E1E0057BB6E /* TennisElbowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D75E429B81E1E0057BB6E /* TennisElbowView.swift */; };
+		112D75E729B81E2C0057BB6E /* TennisElbowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D75E629B81E2C0057BB6E /* TennisElbowViewModel.swift */; };
+		112D75E929B8263A0057BB6E /* RecordPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D75E829B8263A0057BB6E /* RecordPlayView.swift */; };
+		112D75EB29B826500057BB6E /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D75EA29B826500057BB6E /* AccountView.swift */; };
+		112D75EF29BAE6620057BB6E /* StrokeClassification.py in Resources */ = {isa = PBXBuildFile; fileRef = 112D75EE29BAE6620057BB6E /* StrokeClassification.py */; };
+		112D75F229BAE9400057BB6E /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 112D75F129BAE9400057BB6E /* PythonKit */; };
+		112D881029BC044A0057BB6E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112D880F29BC044A0057BB6E /* SystemConfiguration.framework */; };
+		112DA6FD29BFA6F60057BB6E /* python-stdlib in Resources */ = {isa = PBXBuildFile; fileRef = 112DA6FC29BFA6F60057BB6E /* python-stdlib */; };
+		112DA6FF29BFA70E0057BB6E /* Python.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112DA6FE29BFA70E0057BB6E /* Python.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,14 +67,23 @@
 		1124E8C329AE53F90051B5D4 /* extensiLETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = extensiLETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1124E8C729AE53F90051B5D4 /* extensiLETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensiLETests.swift; sourceTree = "<group>"; };
 		1124E8CD29AE53F90051B5D4 /* extensiLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = extensiLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1124E8D129AE53F90051B5D4 /* extensiLEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensiLEUITests.swift; sourceTree = "<group>"; };
-		1124E8D329AE53F90051B5D4 /* extensiLEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensiLEUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1124E8E529AE54A10051B5D4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		1124E8E929AE54AF0051B5D4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		1124E8ED29AE54E70051B5D4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1124E8F129AE54F10051B5D4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1124E8F529AE553F0051B5D4 /* GameAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAnalysisView.swift; sourceTree = "<group>"; };
 		1124E8F929AE554A0051B5D4 /* GameAnalysisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAnalysisViewModel.swift; sourceTree = "<group>"; };
+		112D75E429B81E1E0057BB6E /* TennisElbowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisElbowView.swift; sourceTree = "<group>"; };
+		112D75E629B81E2C0057BB6E /* TennisElbowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisElbowViewModel.swift; sourceTree = "<group>"; };
+		112D75E829B8263A0057BB6E /* RecordPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayView.swift; sourceTree = "<group>"; };
+		112D75EA29B826500057BB6E /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		112D75EE29BAE6620057BB6E /* StrokeClassification.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = StrokeClassification.py; sourceTree = "<group>"; };
+		112D75F329BBD5020057BB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		112D75F429BBD50B0057BB6E /* extensiLE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = extensiLE.entitlements; sourceTree = "<group>"; };
+		112D880F29BC044A0057BB6E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		112DA6FC29BFA6F60057BB6E /* python-stdlib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "python-stdlib"; path = "../../../../Downloads/Python-3.11-macOS-support.b1/python-stdlib"; sourceTree = "<group>"; };
+		112DA6FE29BFA70E0057BB6E /* Python.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Python.xcframework; path = "../../../../Downloads/Python-3.11-macOS-support.b1/Python.xcframework"; sourceTree = "<group>"; };
+		112DA70129BFA74E0057BB6E /* extensiLEDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = extensiLEDebug.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112D75F229BAE9400057BB6E /* PythonKit in Frameworks */,
+				112DA6FF29BFA70E0057BB6E /* Python.xcframework in Frameworks */,
+				112D881029BC044A0057BB6E /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,10 +117,12 @@
 		1124E8AA29AE53F80051B5D4 = {
 			isa = PBXGroup;
 			children = (
+				112DA6FE29BFA70E0057BB6E /* Python.xcframework */,
+				112DA6FC29BFA6F60057BB6E /* python-stdlib */,
 				1124E8B529AE53F80051B5D4 /* extensiLE */,
 				1124E8C629AE53F90051B5D4 /* extensiLETests */,
-				1124E8D029AE53F90051B5D4 /* extensiLEUITests */,
 				1124E8B429AE53F80051B5D4 /* Products */,
+				112D880B29BC04290057BB6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +139,11 @@
 		1124E8B529AE53F80051B5D4 /* extensiLE */ = {
 			isa = PBXGroup;
 			children = (
+				112DA70129BFA74E0057BB6E /* extensiLEDebug.entitlements */,
+				112D75F429BBD50B0057BB6E /* extensiLE.entitlements */,
+				112D75F329BBD5020057BB6E /* Info.plist */,
+				112D75EC29BAE5950057BB6E /* Algorithms */,
+				112D75E329B81E0A0057BB6E /* Education */,
 				1124E8E429AE54470051B5D4 /* Login */,
 				1124E8E329AE54420051B5D4 /* Home */,
 				1124E8E229AE54340051B5D4 /* GameAnalysis */,
@@ -147,18 +173,10 @@
 			path = extensiLETests;
 			sourceTree = "<group>";
 		};
-		1124E8D029AE53F90051B5D4 /* extensiLEUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1124E8D129AE53F90051B5D4 /* extensiLEUITests.swift */,
-				1124E8D329AE53F90051B5D4 /* extensiLEUITestsLaunchTests.swift */,
-			);
-			path = extensiLEUITests;
-			sourceTree = "<group>";
-		};
 		1124E8E029AE54220051B5D4 /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				112D75EA29B826500057BB6E /* AccountView.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -166,6 +184,7 @@
 		1124E8E129AE542A0051B5D4 /* RecordPlay */ = {
 			isa = PBXGroup;
 			children = (
+				112D75E829B8263A0057BB6E /* RecordPlayView.swift */,
 			);
 			path = RecordPlay;
 			sourceTree = "<group>";
@@ -197,6 +216,31 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		112D75E329B81E0A0057BB6E /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				112D75E429B81E1E0057BB6E /* TennisElbowView.swift */,
+				112D75E629B81E2C0057BB6E /* TennisElbowViewModel.swift */,
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		112D75EC29BAE5950057BB6E /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				112D75EE29BAE6620057BB6E /* StrokeClassification.py */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		112D880B29BC04290057BB6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112D880F29BC044A0057BB6E /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -207,12 +251,16 @@
 				1124E8AF29AE53F80051B5D4 /* Sources */,
 				1124E8B029AE53F80051B5D4 /* Frameworks */,
 				1124E8B129AE53F80051B5D4 /* Resources */,
+				112DA70029BFA72C0057BB6E /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = extensiLE;
+			packageProductDependencies = (
+				112D75F129BAE9400057BB6E /* PythonKit */,
+			);
 			productName = extensiLE;
 			productReference = 1124E8B329AE53F80051B5D4 /* extensiLE.app */;
 			productType = "com.apple.product-type.application";
@@ -285,6 +333,9 @@
 				Base,
 			);
 			mainGroup = 1124E8AA29AE53F80051B5D4;
+			packageReferences = (
+				112D75F029BAE9400057BB6E /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
 			productRefGroup = 1124E8B429AE53F80051B5D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -303,6 +354,8 @@
 			files = (
 				1124E8BE29AE53F90051B5D4 /* Preview Assets.xcassets in Resources */,
 				1124E8BB29AE53F90051B5D4 /* Assets.xcassets in Resources */,
+				112DA6FD29BFA6F60057BB6E /* python-stdlib in Resources */,
+				112D75EF29BAE6620057BB6E /* StrokeClassification.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,19 +375,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		112DA70029BFA72C0057BB6E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nset -e\necho \"Signing as $EXPANDED_CODE_SIGN_IDENTITY_NAME ($EXPANDED_CODE_SIGN_IDENTITY)\"\nfind \"$CODESIGNING_FOLDER_PATH/Contents/Resources/python-stdlib/lib-dynload\" -name \"*.so\" -exec /usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" -o runtime --timestamp=none --preserve-metadata=identifier,entitlements,flags --generate-entitlement-der {} \\;\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1124E8AF29AE53F80051B5D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112D75EB29B826500057BB6E /* AccountView.swift in Sources */,
 				1124E8FA29AE554A0051B5D4 /* GameAnalysisViewModel.swift in Sources */,
 				1124E8EA29AE54AF0051B5D4 /* LoginViewModel.swift in Sources */,
+				112D75E929B8263A0057BB6E /* RecordPlayView.swift in Sources */,
 				1124E8F229AE54F10051B5D4 /* HomeViewModel.swift in Sources */,
 				1124E8E629AE54A10051B5D4 /* LoginView.swift in Sources */,
 				1124E8B929AE53F80051B5D4 /* ContentView.swift in Sources */,
 				1124E8EE29AE54E70051B5D4 /* HomeView.swift in Sources */,
 				1124E8F629AE553F0051B5D4 /* GameAnalysisView.swift in Sources */,
 				1124E8B729AE53F80051B5D4 /* extensiLEApp.swift in Sources */,
+				112D75E529B81E1E0057BB6E /* TennisElbowView.swift in Sources */,
+				112D75E729B81E2C0057BB6E /* TennisElbowViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,10 +437,8 @@
 				1124E8EC29AE54AF0051B5D4 /* LoginViewModel.swift in Sources */,
 				1124E8F429AE54F10051B5D4 /* HomeViewModel.swift in Sources */,
 				1124E8E829AE54A10051B5D4 /* LoginView.swift in Sources */,
-				1124E8D429AE53F90051B5D4 /* extensiLEUITestsLaunchTests.swift in Sources */,
 				1124E8F029AE54E70051B5D4 /* HomeView.swift in Sources */,
 				1124E8F829AE553F0051B5D4 /* GameAnalysisView.swift in Sources */,
-				1124E8D229AE53F90051B5D4 /* extensiLEUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +515,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -502,17 +578,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = extensiLE/extensiLEDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"extensiLE/Preview Content\"";
 				DEVELOPMENT_TEAM = 59G9VJX9S9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = extensiLE/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -520,6 +602,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = bgwyllie.extensiLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -531,17 +618,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = extensiLE/extensiLE.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"extensiLE/Preview Content\"";
 				DEVELOPMENT_TEAM = 59G9VJX9S9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = extensiLE/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -549,6 +641,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = bgwyllie.extensiLE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -671,6 +768,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		112D75F029BAE9400057BB6E /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		112D75F129BAE9400057BB6E /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 112D75F029BAE9400057BB6E /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1124E8AB29AE53F80051B5D4 /* Project object */;
 }
